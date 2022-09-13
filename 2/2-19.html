@@ -1,0 +1,100 @@
+<html lang="ja">
+<head>
+    <title>2-19 | レイアウトのためのユーティリティ</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h3>Displayユーティリティ</h3>
+    <div class="row text-center g-0 bg-dark">
+        <div class="col d-lg-none">
+            <div class="bg-light p-3">
+                LGサイズ以上で消える
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-light p-3">
+                col
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-light p-3">
+                col
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <h3>Visibilityユーティリティ</h3>
+    <div class="row text-center g-0 bg-dark">
+        <div class="col invisible">
+            <div class="bg-light p-3">
+                消えるけど横は確保
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-light p-3">
+                col
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-light p-3">
+                col
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h3>Flexユーティリティ</h3>
+    <div class="row g-0 bg-dark h-25">
+        <div class="col align-self-start">
+            <div class="bg-light p-3">
+                上
+            </div>
+        </div>
+        <div class="col align-self-center">
+            <div class="bg-light p-3">
+                中
+            </div>
+        </div>
+        <div class="col align-self-end">
+            <div class="bg-light p-3">
+                下
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h3>Spacingユーティリティ</h3>
+    <div class="row text-center">
+        <div class="col">
+            <div class="bg-light p-5">
+                p5
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-light p-2">
+                p2
+            </div>
+        </div>
+        <div class="col order-first">
+            <div class="bg-light">
+               pなし
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

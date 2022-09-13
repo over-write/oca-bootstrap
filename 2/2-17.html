@@ -1,0 +1,47 @@
+<html lang="ja">
+<head>
+    <title>2-17 | カラムのオフセット</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h3>オフセット用クラスによるカラムのオフセット</h3>
+    <div class="row text-center bg-dark">
+        <div class="col-md-4">
+            <div class="bg-light p-3">
+                col-md-4
+            </div>
+        </div>
+        <div class="col-md-4 offset-md-4"><!-- Medium以上で４列分左に移動 -->
+            <div class="bg-light p-3">
+                col-md-4とoffset-md-4
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h3>オフセットのリセット</h3>
+    <div class="row text-center bg-dark items-center">
+        <div class="col-sm-5 col-md-6">
+            <div class="bg-light p-3">
+                col-sm-5 col-md-6
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+            <div class="bg-light p-3">
+                col-sm-5 offset-sm-2 col-md-6 offset-md-0
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

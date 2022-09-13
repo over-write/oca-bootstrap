@@ -1,0 +1,56 @@
+<html lang="ja">
+<head>
+    <title>2-16 | コンテンツの並び替え</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h3>order−1〜order-12の並び替え</h3>
+    <div class="row text-center bg-dark">
+        <div class="col">
+            <div class="bg-light p-3">
+                最初のカラム（順序指定なし）
+            </div>
+        </div>
+        <div class="col order-5">
+            <div class="bg-light p-3">
+                ２番目のカラム（順序指定5）
+            </div>
+        </div>
+        <div class="col order-1">
+            <div class="bg-light p-3">
+                ３番目のカラム（順序指定１）
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h3>ファーストの指定</h3>
+    <div class="row text-center bg-dark">
+        <div class="col">
+            <div class="bg-light p-3">
+                最初のカラム（順序指定なし）
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-light p-3">
+                ２番目のカラム（順序指定なし）
+            </div>
+        </div>
+        <div class="col order-first">
+            <div class="bg-light p-3">
+                ３番目のカラム（順序指定ファースト）
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<html lang="ja">
+<head>
+    <title>3-7 | テーブル</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h3>Colorユーティリティで色をつける</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Colorsユーティリティーでテーブル行に色を付ける -->
+                <table class="table table-dark">
+                    <thead>
+                    <tr>
+                        <th scope="col">Colorユーティリティークラス</th>
+                        <th scope="col">見出しセル</th>
+                        <th scope="col">見出しセル</th>
+                        <th scope="col">見出しセル</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">なし（標準） </th>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                    </tr>
+                    <!-- bg-primary -->
+                    <tr class="bg-primary">
+                        <th scope="row">bg-primary </th>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                    </tr>
+                    <!-- bg-primary -->
+                    <tr class="bg-primary">
+                        <th scope="row">bg-success </th>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                    </tr>
+                    <!-- bg-warning -->
+                    <tr class="bg-warning">
+                        <th scope="row">bg-warning </th>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                    </tr>
+                    <!-- bg-danger -->
+                    <tr class="bg-danger">
+                        <th scope="row">bg-danger </th>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                    </tr>
+                    <!-- bg-info -->
+                    <tr class="bg-info">
+                        <th scope="row">bg-info </th>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                        <td>データセル</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!-- Colorsユーティリティーで個々のセルに色を付ける -->
+                <table class="table table-dark">
+                    <tr>
+                        <th>th（標準） </th>
+                        <!-- bg-primary -->
+                        <th class="bg-primary">th.bg-primary</th>
+                    </tr>
+                    <tr>
+                        <!-- bg-success -->
+                        <td class="bg-success">td.bg-success</td>
+                        <!-- bg-warning -->
+                        <td class="bg-warning">td.bg-warning</td>
+                    </tr>
+                    <tr>
+                        <!-- bg-danger -->
+                        <td class="bg-danger">td.bg-danger </td>
+                        <!-- bg-info -->
+                        <td class="bg-info">td.bg-info</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
